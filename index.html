@@ -1,58 +1,66 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mini Art Museum - Home</title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Mini Art Museum</h1>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Art Museum - Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <main>
+    <header>      
       <nav>
-        <ul class="pages">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="artists.html">Artists</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="visit.html">Visit &amp; Contact</a></li>
-        </ul>
+        <a href="artists.html">ARTISTS</a>
+        <a href="gallery.html">GALLERY</a>
+        <a href="visit.html">VISIT</a>
       </nav>
+      <h1>Mini Art Museum</h1>
     </header>
-
-    <main>
+    <section>
+      <img src="img/logo.svg" width="300">
+      <p>
+        Where art, culture, and curiosity meet.
+        <br>
+        The Art Museum offers an extraordinary visual and cultural experience in the heart of the city. Among
+        magnificent galleries, rotating exhibitions, and permanent collections, we showcase the finest local and
+        international creations. Stroll through the halls, experience culture up close, and become part of a vibrant
+        artistic community.
+      </p>
+    </section>
+    <section>
+      <nav>
+        <figure>
+          <img src="img/artist1.jpg" width="200" alt="">
+          <figcaption><a href="artists.html">ARTISTS</a></figcaption>
+        </figure>
+        <figure>
+          <img src="img/artwork1.jpg" width="200" alt="">
+          <figcaption><a href="gallery.html">GALLERY</a></figcaption>
+        </figure>
+        <figure>
+          <img
+            src="data:image/jpeg;base64,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"
+            width="200" alt="">
+          <figcaption><a href="visit.html">VISIT</a></figcaption>
+        </figure>
+      </nav>
+    </section>
+    <footer>
       <section>
-        <img src="img/logo.svg" alt="Mini Art Museum logo" width="120" />
-        <h2>Welcome to the Mini Art Museum</h2>
-        <p id="welcome-text">
-          Discover masterpieces by some of the greatest painters in history.
-          Meet the artists, explore the gallery and plan your visit.
-        </p>
-      </section>
-
-      <section>
-        <h2>Explore the Museum</h2>
+        <h2>museum hours:</h2>
         <ul>
-          <li>
-            <a href="artists.html">Artists</a> - meet Vincent van Gogh, Claude
-            Monet and Rembrandt.
-          </li>
-          <li>
-            <a href="gallery.html">Gallery</a> - browse famous paintings from
-            our collection.
-          </li>
-          <li>
-            <a href="visit.html">Visit &amp; Contact</a> - hours, location and
-            contact info.
-          </li>
+          <li>Monday, Wednesday, Saturday: 10:00–18:00</li>
+          <li>Tuesday, Thursday: 10:00–21:00</li>
+          <li>Friday: 10:00–14:00</li>
+          <li>Sunday: Closed</li>
         </ul>
+        <h2>Location:</h2>
+        <a href="https://share.google/jKPVJqtXoD5d5M7cX">Art Meseum</a>
       </section>
-    </main>
-
-    <footer class="footer">
-      <ul class="footer-list">
-        <li id="museum-location">Sokolov 8 Be'er Sheva</li>
-        <li id="footer-museum-hours">8:00-20:00</li>
-      </ul>
     </footer>
-  </body>
+  </main>
+</body>
+
 </html>
