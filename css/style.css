@@ -1,0 +1,45 @@
+h1,h2{
+  color: cadetblue;
+  font-size: 40px;
+}
+nav{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+footer{
+  background-color: blanchedalmond;
+  color: cadetblue;
+}
+.artist-card{
+  border: 500, solid,black;
+  border-radius: 20%;
+  background-color: antiquewhite;
+}
+.thumbnail{
+  border: solid,black,2px;
+  border-radius: 20%;
+}
+#preview_gallery{
+  /* scores-100 */
+  width: 200px;
+
+}
+.artist-card h2{
+   /* scores-11 */
+  color: darkslategray;
+}
+#welcome{
+  font-size: 30px;
+}
+header nav a{
+  /* scores-3 */
+  color: cadetblue;
+}
+footer a{
+  color: cadetblue;
+}
+footer div{
+  font-weight: bold;
+}
+/* step 6 */
+/* the color of class selector win becuase the scores more than type selector.  */
